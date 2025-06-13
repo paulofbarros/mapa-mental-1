@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Mapa Mental do Projeto</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      color: #333;
+    }
+    .mindmap {
+      position: relative;
+      width: 100%;
+      height: 600px;
+      overflow: hidden;
+    }
+    .node {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+    .node-text {
+      font-size: 16px;
+      color: #333;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    .node-text:hover {
+      color: #007BFF;
+    }
+    .line {
+      position: absolute;
+      width: 1px;
+      background-color: #007BFF;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>A Arquitetura da Riqueza – Um Guia Prático para Construir Liberdade Financeira</h1>
+
+    <div class="mindmap">
+      <!-- Nó Central -->
+      <div class="node" style="top: 50%; left: 50%; transform: translate(-50%, -50%);">
+        <a href="#" class="node-text">A Arquitetura da Riqueza</a>
+      </div>
+
+      <!-- Ramo 1: Módulos do Livro -->
+      <div class="line" style="top: 50%; left: 50%; transform: translate(-50%, -50%); width: 200px; height: 1px;"></div>
+      <div class="node" style="top: 50%; left: 30%; transform: translate(-50%, -50%);">
+        <a href="#" class="node-text">Módulos do Livro</a>
+      </div>
+
+      <!-- Subramos dos Módulos -->
+      <div class="line" style="top: 50%; left: 30%; transform: translate(-50%, -50%); width: 100px; height: 1px; rotate: 45deg;"></div>
+      <div class="node" style="top: 40%; left: 20%; transform: translate(-50%, -50%);">
+        <a href="#" class="node-text">Módulo 1 – Construção de Riqueza</a>
+      </div>
+
+      <div class="line" style="top: 50%; left: 30%; transform: translate(-50%, -50%); width: 100px; height: 1px; rotate: -45deg;"></div>
+      <div class="node" style="top: 60%; left: 20%; transform: translate(-50%, -50%);">
+        <a href="#" class="node-text">Módulo 2 – Estratégias de Investimento</a>
+      </div>
+
+      <!-- Ramo 2: Ferramentas Interativas -->
+      <div class="line" style="top: 50%; left: 50%; transform: translate(-50%, -50%); width: 200px; height: 1px; rotate: 90deg;"></div>
+      <div class="node" style="top: 50%; right: 30%; transform: translate(-50%, -50%);">
+        <a href="#" class="node-text">Ferramentas Interativas</a>
+      </div>
+
+      <!-- Subramos das Ferramentas -->
+      <div class="line" style="top: 50%; right: 30%; transform: translate(-50%, -50%); width: 100px; height: 1px; rotate: 45deg;"></div>
+      <div class="node" style="top: 40%; right: 40%; transform: translate(-50%, -50%);">
+        <a href="#" class="node-text">Simulador de Juros Compostos</a>
+      </div>
+
+      <div class="line" style="top: 50%; right: 30%; transform: translate(-50%, -50%); width: 100px; height: 1px; rotate: -45deg;"></div>
+      <div class="node" style="top: 60%; right: 40%; transform: translate(-50%, -50%);">
+        <a href="#" class="node-text">Perfil de Investidor</a>
+      </div>
+
+      <!-- Ramo 3: Quizzes -->
+      <div class="line" style="top: 50%; left: 50%; transform: translate(-50%, -50%); width: 200px; height: 1px; rotate: -90deg;"></div>
+      <div class="node" style="top: 50%; left: 70%; transform: translate(-50%, -50%);">
+        <a href="#" class="node-text">Quizzes Interativos</a>
+      </div>
+
+      <!-- Subramos dos Quizzes -->
+      <div class="line" style="top: 50%; left: 70%; transform: translate(-50%, -50%); width: 100px; height: 1px; rotate: 45deg;"></div>
+      <div class="node" style="top: 40%; left: 80%; transform: translate(-50%, -50%);">
+        <a href="#" class="node-text">Quiz Módulo 1 – Construção de Riqueza</a>
+      </div>
+
+      <div class="line" style="top: 50%; left: 70%; transform: translate(-50%, -50%); width: 100px; height: 1px; rotate: -45deg;"></div>
+      <div class="node" style="top: 60%; left: 80%; transform: translate(-50%, -50%);">
+        <a href="#" class="node-text">Quiz Módulo 2 – Estratégias de Investimento</a>
+      </div>
+
+      <!-- Ramo 4: Exercícios Práticos -->
+      <div class="line" style="top: 50%; left: 50%; transform: translate(-50%, -50%); width: 200px; height: 1px; rotate: 135deg;"></div>
+      <div class="node" style="top: 30%; left: 70%; transform: translate(-50%, -50%);">
+        <a href="#" class="node-text">Exercícios Práticos</a>
+      </div>
+
+      <!-- Subramos dos Exercícios -->
+      <div class="line" style="top: 30%; left: 70%; transform: translate(-50%, -50%); width: 100px; height: 1px; rotate: 45deg;"></div>
+      <div class="node" style="top: 20%; left: 80%; transform: translate(-50%, -50%);">
+        <a href="#" class="node-text">Dashboard Semanal de Mercado</a>
+      </div>
+
+      <div class="line" style="top: 30%; left: 70%; transform: translate(-50%, -50%); width: 100px; height: 1px; rotate: -45deg;"></div>
+      <div class="node" style="top: 40%; left: 80%; transform: translate(-50%, -50%);">
+        <a href="#" class="node-text">Diário de Investimentos</a>
+      </div>
+
+      <!-- Ramo 5: Planejamento Financeiro -->
+      <div class="line" style="top: 50%; left: 50%; transform: translate(-50%, -50%); width: 200px; height: 1px; rotate: -135deg;"></div>
+      <div class="node" style="top: 70%; left: 30%; transform: translate(-50%, -50%);">
+        <a href="#" class="node-text">Planejamento Financeiro</a>
+      </div>
+
+      <!-- Subramos do Planejamento Financeiro -->
+      <div class="line" style="top: 70%; left: 30%; transform: translate(-50%, -50%); width: 100px; height: 1px; rotate: 45deg;"></div>
+      <div class="node" style="top: 60%; left: 20%; transform: translate(-50%, -50%);">
+        <a href="#" class="node-text">Calculadora de Prosperidade</a>
+      </div>
+
+      <div class="line" style="top: 70%; left: 30%; transform: translate(-50%, -50%); width: 100px; height: 1px; rotate: -45deg;"></div>
+      <div class="node" style="top: 80%; left: 20%; transform: translate(-50%, -50%);">
+        <a href="#" class="node-text">Plano de Voo Financeiro</a>
+      </div>
+
+      <!-- Ramo 6: Análise de Mercado -->
+      <div class="line" style="top: 50%; left: 50%; transform: translate(-50%, -50%); width: 200px; height: 1px; rotate: 180deg;"></div>
+      <div class="node" style="top: 70%; right: 30%; transform: translate(-50%, -50%);">
+        <a href="#" class="node-text">Análise de Mercado</a>
+      </div>
+
+      <!-- Subramos da Análise de Mercado -->
+      <div class="line" style="top: 70%; right: 30%; transform: translate(-50%, -50%); width: 100px; height: 1px; rotate: 45deg;"></div>
+      <div class="node" style="top: 60%; right: 40%; transform: translate(-50%, -50%);">
+        <a href="#" class="node-text">Indicadores Econômicos</a>
+      </div>
+
+      <div class="line" style="top: 70%; right: 30%; transform: translate(-50%, -50%); width: 100px; height: 1px; rotate: -45deg;"></div>
+      <div class="node" style="top: 80%; right: 40%; transform: translate(-50%, -50%);">
+        <a href="#" class="node-text">Backtesting Básico</a>
+      </div>
+
+      <!-- Ramo 7: Certificação Digital -->
+      <div class="line" style="top: 50%; left: 50%; transform: translate(-50%, -50%); width: 200px; height: 1px; rotate: 0deg;"></div>
+      <div class="node" style="top: 30%; right: 30%; transform: translate(-50%, -50%);">
+        <a href="#" class="node-text">Certificação Digital</a>
+      </div>
+
+      <!-- Subramos da Certificação -->
+      <div class="line" style="top: 30%; right: 30%; transform: translate(-50%, -50%); width: 100px; height: 1px; rotate: 45deg;"></div>
+      <div class="node" style="top: 20%; right: 40%; transform: translate(-50%, -50%);">
+        <a href="#" class="node-text">Emissão Automática de Certificados</a>
+      </div>
+
+      <div class="line" style="top: 30%; right: 30%; transform: translate(-50%, -50%); width: 100px; height: 1px; rotate: -45deg;"></div>
+      <div class="node" style="top: 40%; right: 40%; transform: translate(-50%, -50%);">
+        <a href="#" class="node-text">Critérios de Aprovação</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Adicionar interatividade aos nós (opcional)
+    document.querySelectorAll('.node-text').forEach(node => {
+      node.addEventListener('click', () => {
+        alert(`Você clicou em "${node.textContent}".`);
+      });
+    });
+  </script>
+</body>
+</html>
